@@ -1,0 +1,182 @@
+
+.h21{
+    display: inline;
+    margin-left: 5%;
+    color: #fc5603;
+    font-style: italic;
+}
+h2:hover{
+    color: #e1692d;
+}
+.btn3{
+    border-radius: 50px;
+    color:black;
+}
+button:hover {
+    background: #e64c00;
+  }
+span{
+    margin-left: 220%;
+}
+.navbar{
+    height: 80px;
+    background-color: black;
+}
+body{
+    background-color:  white !important;
+}
+.aboutus-1{
+    text-decoration: none;
+    color:white;
+    font-size: large;
+}
+.aboutus-1:hover{
+    color: #e64c00;
+}
+.log-in:hover{
+    color: #e64c00 ;
+}
+.log-in{
+    text-decoration: none;
+    color: white;
+    font-size: large;
+}
+.cart{
+    text-decoration: none;
+    color: white;
+    font-size: large;
+    margin-right: 20px;
+}
+.cart:hover{
+    color: #e64c00 ;
+}
+.menulist{
+     margin-left: 450px;
+     text-decoration: none;
+     color: white;
+     font-size: large;
+}
+.menulist:hover{
+    color: #e64c00 ;
+}
+.img-1{
+    background-image: url('../Assets/hotel-1.jpg');
+    height: 700px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+.it1{
+    margin-left: px;
+}
+.it2{
+    margin-left: 15px;
+}
+.samp{
+    display: inline;
+}
+.card-text1{
+    text-align: justify;
+}
+.card-img-1{
+    height: 180px;
+    width: 300px;
+    border: 1px solid white;
+    background-size: cover;
+    background-color:white;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px white;
+}
+.card-2{
+     height: 420px;
+    width: 320px;
+    border: 1px solid wheat;
+    background-color:white;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 2px 2px 2px white;
+    margin: 10px;
+}
+.card-tittle{
+    margin-top: 10px;
+    color: #e64c00;
+}
+
+.card-img-top{
+    border-radius: 10px;
+}
+.cart-button:hover {
+    background: #e64c00;
+    color: white;
+  }
+.dropdown-menu{
+    position: absolute;
+    margin-left: 1300px;
+}
+.container1{
+    background-color: #e64c00;
+}
+.text-light{
+    text-decoration: none;
+}
+h5{
+    color: #e64c00;
+}
+.jk{
+    text-decoration: none;
+}
+.menus-1{
+    margin-top: 40px;
+    color:  #e64c00;
+    text-align: center;
+}
+h3{
+    color: #e64c00;
+    text-align: center;
+    font-size: 35px !important;
+
+}
+.abts{
+    text-align: justify;
+    padding: 5px;
+    margin-left: 20px;
+}
+h4{
+    color: #e64c00;
+    text-align: center;
+}
+.about-us{
+    height: 150px;
+    width: 95%;
+    border: 2px solid  white;
+    border-radius: 10px;
+    text-align: center;
+}
+.about-us-2{
+    height: 200px;
+    width: 80%;
+    border: 2px solid white;
+    display: flex;
+    margin-left: 115px;
+}
+.abts-1{
+    height: 150px;
+    width: 80%;
+    border: 2px solid white;
+    text-align: justify;
+    padding: 5px;
+    margin-left: 140px;
+}
+.fa-regular{
+    color: #bd5d3d;
+}
+#button{
+    color: black;
+    height: 40px;
+    width: 100px;
+    border: 2px solid  #e64c00;
+    border-radius: 10px;
+    text-decoration: none;
+    margin-left: 100px;
+}

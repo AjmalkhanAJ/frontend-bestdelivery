@@ -1,0 +1,59 @@
+.summary-box {
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.summary-box strong {
+  font-weight: 600;
+  color: black;
+}
+
+.img-fluid {
+  border-radius: 8px;
+  box-shadow: 0 1px 6px rgba(0,0,0,0.1);
+}
+
+h4, h5 {
+  font-weight: 600;
+}
+img {
+  border-radius: 8px;
+}
+
+h5, h6 {
+  margin-bottom: 0.5rem;
+}
+.billing-1{
+  display: flex;
+  gap: 70px;
+}
+.billing-2{
+  display: flex;
+  gap: 70px;
+}
+.form-control-1{
+  height: 100px;
+  width: 530px;
+  border: 1px solid rgb(223, 219, 210);
+  border-radius: 10px;
+}
+#billing-3::placeholder{
+  text-align: start;
+}
+.order-summary-1{
+    height: 370px;  
+    /* height: fit-content; */
+    margin-top: -20px;
+    scroll-behavior: smooth;
+    overflow-y: scroll;
+}
+.payment-method{
+  display: flex;
+  gap: 70px;
+}
+.form-control-3{
+  height: 50px;
+  width: 530px;
+  border: 1px solid rgb(223, 219, 210);
+}

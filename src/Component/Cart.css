@@ -1,0 +1,44 @@
+.scroll{
+    height: 350px;
+    margin-top: -20px;
+    scroll-behavior: smooth;
+    overflow-y: scroll;
+}
+tbody{
+    width: 1400px;
+}
+#decrease{
+    width: 31px;
+}
+.th1{
+    width: 230px;
+}
+.th2{
+    width: 276px;
+}
+.th3{
+    width: 124px;
+}
+.th4{
+    width: 279px;
+}
+.th5{
+    width: 124px;
+}
+.th6{
+    width: 259px;
+} 
+.cart-head{
+    display: inline;
+    margin-left: 75%;
+    text-decoration: none !important;
+    font-size: 40px;
+    font-weight: 500;
+    color: black;
+}
+.cart-head:hover{
+    color:  #e1692d;
+}
+.mb-4{
+    display: inline;
+}

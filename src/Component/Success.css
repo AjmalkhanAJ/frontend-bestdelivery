@@ -1,0 +1,32 @@
+
+.my-box-5{
+    height: 650px;
+    width: 500px;
+    border: 2px solid white;
+    box-shadow: 0px 0px 2px 2px white;
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 500px;
+    background-color: white;
+}
+.card-headind{
+    color: black;
+}
+.my-box-4{
+    height: 730px;
+    width: 100%;
+    border: 1px solid black;
+    background-color: rgba(255, 166, 0, 0.777);
+}
+.success-button{
+    height: 60px;
+    width: 250px;
+    border-radius: 10px;
+    color: white;
+    background-color: green;
+}
+.success-button:hover{
+    background-color: rgba(255, 166, 0, 0.777) ;
+    color: black;
+}

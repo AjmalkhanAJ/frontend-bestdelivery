@@ -10,7 +10,7 @@ export default function Login() {
   const [mobile, setMobile] = useState('');
   const [password, setPassword] = useState('');
   const navigate = useNavigate();
-  const { id } = useParams();
+  // const { id } = useParams();
 
   const handleSubmit = (e) => {
     e.preventDefault();

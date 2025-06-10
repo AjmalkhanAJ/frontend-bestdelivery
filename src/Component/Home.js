@@ -3,7 +3,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import "../Component/Home.css";
-import { Link, useParams, useNavigate} from "react-router-dom";
+import { Link, useParams} from "react-router-dom";
 import axios from "axios";
 
 
@@ -61,7 +61,7 @@ const menuItems = [
 ];
 function Home() {
   const { id } = useParams();
-  const navigate = useNavigate();
+  // const navigate = useNavigate();
 
   const addToCart = (name, price, image) => {
     if (!id) {

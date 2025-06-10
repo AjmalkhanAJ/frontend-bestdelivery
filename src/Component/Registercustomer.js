@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState} from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import '../Component/Registercustomer.css';
 import axios from 'axios';
@@ -19,7 +19,7 @@ export default function Register() {
 
   axios.post("http://localhost:5000/addcustomer", { mobile, password })
     .then((res) => {
-      const cusid = res.data._id;
+      // const cusid = res.data._id;
       console.log('Registration success, navigating to login...');
       navigate(`/login`);
     })

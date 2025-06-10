@@ -9,7 +9,7 @@ const Cart = () => {
   const navigate = useNavigate();
   const [cart, setCart] = useState([]);
   const [grandTotal, setGrandTotal] = useState(0);
-  const fetchCart = async () => {
+  async function fetchCart  ()  {
     try {
       const response = await axios.get(`http://localhost:5000/getcart/${id}`);
       const updatedCart = response.data.map(item => ({

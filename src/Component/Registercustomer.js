@@ -17,7 +17,7 @@ export default function Register() {
     return;
   }
 
-  axios.post("http://localhost:5000/addcustomer", { mobile, password })
+  axios.post("https://backend-bestdelivery-test.onrender.com/addcustomer", { mobile, password })
     .then((res) => {
       // const cusid = res.data._id;
       console.log('Registration success, navigating to login...');

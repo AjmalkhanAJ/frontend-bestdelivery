@@ -69,7 +69,7 @@ function Home() {
       return;
     }
 
-    axios.post(`http://localhost:5000/additem/${id}`, {
+    axios.post(`https://backend-bestdelivery-test.onrender.com/additem/${id}`, {
         cusid: id,
         proname: name,
         proprice: price,

@@ -22,7 +22,7 @@ const Payment = () => {
   const navigate = useNavigate();
 
   useEffect(() => {
-    axios.get(`http://localhost:5000/getcart/${id}`)
+    axios.get(`https://backend-bestdelivery-test.onrender.com/getcart/${id}`)
       .then(res => {
         if (res.data.length === 0) {
           alert("Cart is empty. Redirecting...");
@@ -71,7 +71,7 @@ const Payment = () => {
 }));
     try {
       setSubmitting(true);
-      await axios.post(`http://localhost:5000/orders/${id}`, { orders: orderData });
+      await axios.post(`https://backend-bestdelivery-test.onrender.com/orders/${id}`, { orders: orderData });
       console.log("Sending orders:", orderData);
       alert(`Payment Successful via ${paymentMethod.toUpperCase()}`);
       navigate("/Success");

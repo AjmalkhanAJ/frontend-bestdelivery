@@ -18,7 +18,7 @@ export default function Login() {
       alert("Please enter both mobile number and password.");
       return;
     }
-    axios.post(`http://localhost:5000/customer/login`, { mobile, password })
+    axios.post(`https://backend-bestdelivery-test.onrender.com/customer/login`, { mobile, password })
       .then((res) => {
         alert("login successful");
         

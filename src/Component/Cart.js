@@ -11,7 +11,7 @@ const Cart = () => {
   const [grandTotal, setGrandTotal] = useState(0);
   async function fetchCart  ()  {
     try {
-      const response = await axios.get(`http://localhost:5000/getcart/${id}`);
+      const response = await axios.get(`https://backend-bestdelivery-test.onrender.com/getcart/${id}`);
       const updatedCart = response.data.map(item => ({
         ...item,
         itemTotal: item.proprice * item.overallquantity,
@@ -32,12 +32,12 @@ const Cart = () => {
     } else {
       fetchCart();
     }
-  }, [id]);
+  }, []);
   // Update quantity
  const updateQuantity = async (itemId, change) => {
   try {
     console.log(`Updating quantity for item ${itemId} by ${change}`);
-    const response = await axios.put(`http://localhost:5000/updatequantity/${itemId}`, { change });
+    const response = await axios.put(`https://backend-bestdelivery-test.onrender.com/updatequantity/${itemId}`, { change });
     if (response.data.success) {
       fetchCart(); 
     }
@@ -51,7 +51,7 @@ const Cart = () => {
     if (!window.confirm('Are you sure you want to remove this item?')) return;
 
     try {
-      await axios.delete(`http://localhost:5000/removeitem/${itemId}`);
+      await axios.delete(`https://backend-bestdelivery-test.onrender.com/removeitem/${itemId}`);
       fetchCart();
     } catch (error) {
       console.error('Error removing item:', error);
